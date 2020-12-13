@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body{
+    background-image: url(../../public/bg.webp);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+#section-img1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #80FFDB;
+    color: #7400B8;
+    box-shadow: 2px 2px 20px 2px  #7400B8;
+}
+.section-img1{
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.section-img1 h2{
+    font-size: 50px;
+}
+.section-img1 p{
+    font-size: 20px;
+    text-indent: 25px;
+    text-align: justify;
+}
+#img1{
+    margin-right: 100px;
+}
+#section-img2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #7400B8;
+    color: #80FFDB;
+    box-shadow: 2px 2px 20px 2px   #80FFDB;
+    margin-top: 1px;
+}
+.section-img2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.section-img2 h2{
+    font-size: 50px;
+}
+.section-img2 p{
+    font-size: 20px;
+    text-indent: 25px;
+    text-align: right;
+}
+#img2{
+    width: 50%;
+    opacity: 68%;
+    background-color:  #80FFDB;
+    margin-left: 70px;
+    margin-right: 50px;
+}

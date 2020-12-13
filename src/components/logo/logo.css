@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.logo-valorant{
+    width: 235.46px;
+    height: 64.13px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    color: #80FFDB;
+    background-color: #59058a;
+    padding: 130px;
+}
+#robot-not{
+    color: #80FFDB;
+    width: 500px;
+    height: 500px;
+}
+#logo-not{
+    width: 500px;
+}
+.div-msg{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+#Erro404{
+    margin-left: 15px;
+    font-size: 50px;   
+}
+#Erro404-texto{
+    width: 500px;
+    margin-left: 15px;
+    font-size: 30px;  
+}
+.btn-voltar{
+    margin-left: 35px;
+    border-radius: 5px;
+    background-color: teal;
+}
+#btn-voltar{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 30px;
+}
+#btn-voltar:hover{
+    color: white;
+}
+.btn-voltar:hover{
+    background-color: rgb(0, 195, 195);
+}

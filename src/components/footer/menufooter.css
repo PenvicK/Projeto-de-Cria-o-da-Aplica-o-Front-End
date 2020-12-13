@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.lista-footer{
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 80px;
+}
+.linkFooter{
+    text-decoration: none;
+    font-weight: 400;
+    color: #80FFDB;
+    font-size: 20px;
+}
+.linkFooter:hover{
+    color: white;
+    font-weight: 600;
+    transition: all 0.1s linear;
+}
+.linkFooter li{
+    padding-bottom: 7px;
+}
