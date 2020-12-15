@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 760px;
+    height: 750px;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+.title-cadastro{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 55px;
+}
+.input-cadastro{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.input-cadastro-nas{
+    width: 84px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.input-cadastro:focus{
+    outline: none;
+}
+.input-cadastro-nas:focus{
+    outline: none;
+}
+.container-check{
+    display: flex;
+    flex-direction: row;
+    margin-right: 180px;
+}
+.texto-check{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 35px;
+    font-size: 12px;
+}
+.btn-cadastrar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 197px;
+    color: white;
+    background-color:#7400B8;
+    border-radius: 3px;
+    padding: 10px;
+    border-style: none;
+}
+.btn-cadastrar:hover{
+    background-color:  #80FFDB;
+    color: #7400B8;
+}
+.btn-cadastrar:focus{
+    outline: none;
+}

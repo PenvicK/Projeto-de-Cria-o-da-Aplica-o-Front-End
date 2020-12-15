@@ -1,0 +1,22 @@
+[
+    {
+        "coluna1": "Preço por mês",
+        "coluna2": "R$20,00",
+        "coluna3": "R$25,00"
+    },
+    {
+        "coluna1": "Qualidade do vídeo",
+        "coluna2": "Boa",
+        "coluna3": "Superior"
+    },
+    {
+        "coluna1": "Resolução",
+        "coluna2": "720p",
+        "coluna3": "4K"
+    },
+    {
+        "coluna1": "Telas simultâneas",
+        "coluna2": "2",
+        "coluna3": "4"
+    }
+]

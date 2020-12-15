@@ -7,6 +7,7 @@ import NotFound from './pages/NotFound';
 import Produto from './pages/Produto';
 import Suporte from './pages/Suporte';
 import Login from './pages/Login';
+import Cadastro from './pages/Cadastro';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/produto" component={Produto} />
         <Route path="/suporte" component={Suporte} />
         <Route path="/login" component={Login} />
+        <Route path="/cadastro" component={Cadastro} />
         <Route component={NotFound} />
       </Switch>
       <Footer />
