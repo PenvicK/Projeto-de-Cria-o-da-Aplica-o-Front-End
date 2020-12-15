@@ -16,7 +16,8 @@ function Produto(){
     }
 
     return(
-        <>
+        <>  
+            <h1 className="title-produto">Selecione seu Plano</h1>
             <table className="linha-table-container">
                 <tr className="linha-table">
                     <th className="tb-container">&nbsp;</th>
@@ -26,8 +27,8 @@ function Produto(){
                 {tabela.map((tabela, index) =>
                 <tr id="lt-container" className="linha-table">  
                     <th className="cl1">{tabela.coluna1}</th>
-                    <td className="cl2">{tabela.coluna2}</td>
-                    <td className="cl3">{tabela.coluna3}</td>
+                    <td className={change1 ?"cl2-selected":"cl2"}>{tabela.coluna2}</td>
+                    <td className={change2 ?"cl3-selected":"cl3"}>{tabela.coluna3}</td>
                 </tr>
                 )}
             </table>
